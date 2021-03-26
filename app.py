@@ -9,9 +9,6 @@ def login():
     return render_template('Login.html')
 
 
-@app.route('/register')
-def register():
-    return render_template('Register.html')
 
 
 @app.route('/home')
